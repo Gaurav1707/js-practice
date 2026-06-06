@@ -1,3 +1,4 @@
+const { useId } = require("react");
 
 const Apival = "https://api.nationalize.io/?name=nathaniel";
 const space = document.querySelector("#fact");
@@ -32,3 +33,7 @@ console.log(data);
  space.innerText = data.country[0].country_id;
 };
 newBtn.addEventListener("click",apiCall);
+let UsI = document.getElementById(usId);
+if(UsI){
+    document.style.background= "red";
+}
