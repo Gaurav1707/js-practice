@@ -34,6 +34,6 @@ console.log(data);
 newBtn.addEventListener("click",apiCall);
 let UsI = document.getElementById("usId");
 if(UsI.value==="US"){
-    document.style.background= "red";
+    document.body.style.background= "red";
     alert("Selected value is US");
 }
