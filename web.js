@@ -15,7 +15,6 @@ const space = document.querySelector("#fact");
 //     div.innerText = `hello  ${idx}`;
 //     idx++;
 // }
-const convertApi = 
 let newBtn = document.createElement("button");
 newBtn.innerText = 'click here !';
 newBtn.style.background="red";
