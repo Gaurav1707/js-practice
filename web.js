@@ -33,7 +33,7 @@ console.log(data);
  space.innerText = data.country[0].country_id;
 };
 newBtn.addEventListener("click",apiCall);
-let UsI = document.getElementById(usId);
-if(UsI){
+let UsI = document.getElementById("usId");
+if(UsI.value==="US"){
     document.style.background= "red";
 }
